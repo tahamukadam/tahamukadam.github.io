@@ -45,7 +45,7 @@ JavaScript (ES6+)
 
 📦 Installation & Setup
 1️⃣ Clone the repository
-git clone https://github.com/tahamukadam/task2.git
+git clone https://github.com/tahamukadam/tahamukadam.github.io
 
 2️⃣ Navigate to project folder
 cd todos-list
