@@ -2,82 +2,146 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taha Mukadam | Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/4d1b5f8b29.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
 
-    <!-- HEADER -->
     <header>
-        <h1 class="logo">MyPortfolio</h1>
         <nav>
-            <a href="#home">Home</a>
-            <a href="#services">Services</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
+            <h2 class="logo">Taha<span>.</span></h2>
+
+            <ul id="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
         </nav>
     </header>
 
-    <!-- HERO SECTION -->
     <section id="home" class="hero">
-        <h2 class="fade-in">Hi, I'm <span>Taha</span></h2>
-        <p class="fade-in">A Web Developer who builds beautiful and modern websites.</p>
-        <button class="btn bounce">Hire Me</button>
-    </section>
 
-    <!-- SERVICES SECTION -->
-    <section id="services" class="section">
-        <h2>My Services</h2>
-        <div class="service-container">
-            <div class="card slide-up">
-                <h3>Web Development</h3>
-                <p>I build fast, modern and responsive websites.</p>
-            </div>
-            <div class="card slide-up">
-                <h3>UI/UX Design</h3>
-                <p>I design clean and user-friendly interfaces.</p>
-            </div>
-            <div class="card slide-up">
-                <h3>Business Websites</h3>
-                <p>Custom static and dynamic sites for small businesses.</p>
-            </div>
+        <div class="hero-text">
+
+            <h3>Hello, I'm</h3>
+            <h1>Taha Mukadam</h1>
+
+            <h2 id="typing"></h2>
+
+            <p>
+                Passionate Full Stack Developer and Cloud Computing learner.
+                I build responsive websites and modern web applications.
+            </p>
+
+            <a href="#projects" class="btn">View Projects</a>
+
         </div>
+
+        <div class="hero-image">
+            <img src="images/profile.jpg" alt="">
+        </div>
+
     </section>
 
-    <!-- PROJECTS SECTION -->
-    <section id="projects" class="section">
-        <h2>Projects</h2>
+    <section id="about">
+
+        <h2 class="title">About Me</h2>
+
+        <p>
+            Motivated Computer Science graduate with experience in Full Stack Development,
+            Node.js, Python, MySQL and Cloud Computing.
+            I enjoy creating modern web applications and continuously learning new technologies.
+        </p>
+
+    </section>
+
+    <section id="skills">
+
+        <h2 class="title">Skills</h2>
+
+        <div class="skills">
+
+            <div class="card">HTML</div>
+            <div class="card">CSS</div>
+            <div class="card">JavaScript</div>
+            <div class="card">Node.js</div>
+            <div class="card">Python</div>
+            <div class="card">MySQL</div>
+            <div class="card">AWS</div>
+            <div class="card">Linux</div>
+
+        </div>
+
+    </section>
+
+    <section id="projects">
+
+        <h2 class="title">Projects</h2>
+
         <div class="project-container">
-            <div class="project-card zoom">
-                <h3>Project One</h3>
-                <p>A responsive landing page designed for a brand.</p>
+
+            <div class="project">
+                <h3>Inventory & Sales System</h3>
+                <p>Inventory Management with Reports and Dashboard.</p>
+                <a href="#">GitHub</a>
             </div>
-            <div class="project-card zoom">
-                <h3>Project Two</h3>
-                <p>A business website with modern UI and animations.</p>
+
+            <div class="project">
+                <h3>Real time Chat Application</h3>
+                <p>Real-time chat application using node.js and express.</p>
+                <a href="https://github.com/tahamukadam/real-time-chat" target="_blank">GitHub</a>
             </div>
-            <div class="project-card zoom">
-                <h3>Project Three</h3>
-                <p>Portfolio website with custom JavaScript effects.</p>
+
+            <div class="project">
+                <h3>Resort Website</h3>
+                <p>Responsive resort booking website.</p>
+                <a href="https://github.com/tahamukadam/resort-website" target="_blank">GitHub</a>
             </div>
+
         </div>
+
     </section>
 
-    <!-- CONTACT SECTION -->
-    <section id="contact" class="section">
-        <h2>Contact Me</h2>
-        <p>Email: example@gmail.com</p>
-        <p>Instagram: @your_id</p>
+    <section id="contact">
+
+        <h2 class="title">Contact</h2>
+
+        <p>Email : tahamukadam780@gmail.com</p>
+
+        <div class="social">
+
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+
+        </div>
+
     </section>
 
     <footer>
-        © 2025 My Portfolio | All Rights Reserved
+
+        <p>© 2026 Taha Mukadam | All Rights Reserved</p>
+
     </footer>
 
     <script src="script.js"></script>
+
 </body>
 
 </html>
